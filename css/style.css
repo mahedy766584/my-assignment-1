@@ -1,0 +1,355 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+/*--------all content of the header--------*/
+header{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(229, 84, 115, .13);
+}
+.all-content-of-the-header{
+    width: 84%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.all-text-of-the-header > h1{
+    font-size: 70px;
+    line-height: 70px;
+}
+.all-text-of-the-header > p{
+    color: rgba(39, 39, 39, .61);
+    margin-top: 25px;
+    width: 550px;
+}
+.all-text-of-the-header > button{
+    padding: 15px 40px;
+    margin-top: 25px;
+    outline: none;
+    border: none;
+    background-color: #E55473;
+    color: #ffffff;
+    font-size: 17px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+/* --------main sections of website-------- */
+
+/* featured section style */
+.all-featured-content{
+    width: 75%;
+    margin: 100px auto;
+}
+.featured-title-description{
+    text-align: center;
+    width: 560px;
+    margin: 0 auto;
+}
+.featured-title-description > h1{
+    font-size: 35px;
+}
+.featured-title-description > p{
+    margin-top: 10px;
+    color: rgba(39, 39, 39, .61);
+}
+.featured-images{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.featured-image-p{
+    margin: 50px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.image-1 >img{
+    width: 300px;
+    height: 350px;
+    margin-top: 50px;
+}
+.image-2 >img{
+    width: 300px;
+    height: 350px;
+    margin-top: 50px;
+}
+.image-3 > img{
+    width: 300px;
+    height: 350px;
+    margin-top: 50px;
+}
+.image-1{
+    width: 350px;
+    height: 400px;
+    display: flex;
+    border-radius: 50% 50% 0 0;
+    justify-content: center;
+    background-color: rgba(157, 33, 98, 0.15);
+}
+.image-2{
+    background-color: rgba(5, 51, 160, .15);
+    width: 350px;
+    height: 400px;
+    display: flex;
+    border-radius: 50% 50% 0 0;
+    justify-content: center;
+}
+.image-3{
+    background-color: rgba(71, 125, 17, .15);
+    width: 350px;
+    height: 400px;
+    display: flex;
+    border-radius: 50% 50% 0 0;
+    justify-content: center;
+}
+
+.featured-image-p > p{
+    margin-top: 15px;
+    text-decoration: underline;
+}
+
+
+/* love and romance section style */
+.love-and-romance{
+    width: 80%;
+    height: 950px;
+    text-align: center;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, .06);
+    margin: 90px auto;
+    padding: 70px 0;
+    border-radius: 8px;
+}
+.love-title-and-description{
+    margin: 20px auto;
+}
+.love-title-and-description > h1{
+    font-size: 35px;
+}
+.love-title-and-description > p{
+    color: rgba(39, 39, 39, .61);
+    margin-top: 15px;
+}
+.flower-images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 10px;
+}
+.flower-image{
+    width: 300px;
+    height: 390px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    border-radius: 8px;
+}
+.flower-image > button{
+    padding: 10px 40px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: #ff6284;
+    cursor: pointer;
+    display: none;
+    margin-top: 25%;
+    position: absolute;
+}
+.flower-image > button > a{
+    color: #ffffff;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.flower-image:hover{
+    box-shadow: 2px  2px 30px rgba(0, 0, 0, .1);
+    transition: all ease-in .2s;
+}
+.flower-image:hover > button{
+    display: flex;
+    display: block;
+}
+.flower-image > img{
+    width: 300px;
+}
+
+/* ---------same day delivery section---------- */
+.same-day-delivery{
+    width: 62%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    height: 250px;
+    background-color: rgba(39, 39, 39, .05);
+    padding: 10px 90px;
+}
+.same-day{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.same-day > p{
+    margin-top: 15px;
+}
+
+
+/* -------hot deal section style ---------*/
+.hot-del{
+    width: 100%;
+    height: 450px;
+    display: flex;justify-content: center;
+    align-items: center;
+    background-color: rgba(229, 84, 115, .05);
+    margin: 80px 0;
+}
+.hot-deal-all-content{
+    width: 62%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto 0;
+    align-items: center;
+}
+.title-and-description{
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.off{
+    color: #E55473;
+}
+.title-and-description > h1{
+    font-size: 35px;
+}
+.title-and-description > p{
+    margin-top: 15px;
+    text-align: center;
+    line-height: 23px;
+}
+.title-and-description > button{
+    padding: 15px 40px;
+    margin-top: 18px;
+    border: none;
+    outline: none;
+    background-color: #E55473;
+    color: #ffffff;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+/*--------- instagram section style----------- */
+.instagram-all-content{
+    width: 80%;
+    margin: 0 auto;
+}
+.instagram-text-description{
+    text-align: center;
+    width: 500px;
+    margin: 30px auto;
+}
+.instagram-text-description > h1{
+    font-size: 35px;
+}
+.instagram-text-description > p{
+    color: rgba(39, 39, 39, .61);
+    margin-top: 15px;
+}
+.instagram-images{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+.instagram-images > img{
+    width: 280px;
+}
+
+/* ----------button banner section style--------- */
+.button-banner-section{
+    background-image: url("flower-asset/Rectangle\ 9.png");
+    background-blend-mode: overlay;
+    background-position: center;
+    background-size: cover;
+    width: 78%;
+    height: 250px;
+    margin: 80px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.banner-text > h1{
+    font-size: 35px;
+}
+.banner-text > p{
+    margin: 15px 20px;
+    color: rgba(39, 39, 39, .65);
+}
+.banner-button > input{
+    width: 320px;
+    padding: 15px 35px;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    border-radius: 5px;
+}
+.banner-button > button{
+    width: 110px;
+    border: none;
+    outline: none;
+    padding: 12px 0;
+    background-color: #E55473;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+
+/*---------- footer section style---------- */
+footer{
+    width: 100%;
+    height: 350px;
+    background-color: #111010;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #ffffff;
+}
+.all-text-footer{
+    width: 600px;
+    text-align: center;
+}
+.all-text-footer > h1{
+    font-size: 35px;
+}
+.flower{
+    color: #ff6284;
+}
+.all-text-footer > p{
+    width: 450px;
+    margin: 18px auto;
+    line-height: 23px;
+}
+.all-text-footer .copy{
+    margin-top: 40px;
+    color: rgba(176, 176, 176, 0.612);
+}
